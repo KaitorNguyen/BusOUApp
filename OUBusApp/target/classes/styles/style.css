@@ -1,0 +1,27 @@
+.left-side-background{
+    -fx-background-color: #98FB98;
+}
+
+.transparent{
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.border{
+    -fx-border-color: #98FB98;
+    -fx-border-width: 1.5;
+}
+
+.right-side-border{
+    -fx-border-color: #98FB98;
+    -fx-border-width: 0 1.5 0 0;
+}
+
+.button{
+    -fx-background-color: #ADFF2F;
+}
+.button:hover{
+    -fx-background-color: #00FF7F;
+}
+.button:pressed{
+    -fx-background-color: #20B2AA;
+}
