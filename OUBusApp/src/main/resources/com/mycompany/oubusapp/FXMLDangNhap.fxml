@@ -47,7 +47,7 @@
                         </ImageView>
                      </children>
                   </Pane>
-                  <TextField prefHeight="50.0" prefWidth="331.0" promptText="Tên đăng nhập">
+                  <TextField fx:id="txt_username" prefHeight="50.0" prefWidth="331.0" promptText="Tên đăng nhập">
                      <font>
                         <Font name="System Bold" size="24.0" />
                      </font>
@@ -70,7 +70,7 @@
                         </ImageView>
                      </children>
                   </Pane>
-                  <TextField fx:id="txt_MK" prefHeight="50.0" prefWidth="330.0" promptText="Mật khẩu">
+                  <TextField fx:id="txt_password" prefHeight="50.0" prefWidth="330.0" promptText="Mật khẩu">
                      <HBox.margin>
                         <Insets />
                      </HBox.margin>
@@ -83,7 +83,7 @@
                   <Insets left="60.0" right="20.0" top="20.0" />
                </VBox.margin>
             </HBox>
-            <Button fx:id="btn_DangNhap" mnemonicParsing="false" prefHeight="43.0" prefWidth="186.0" styleClass="left-side-background" stylesheets="@../../../styles/style.css" text="Đăng Nhập">
+            <Button fx:id="btn_DangNhap" mnemonicParsing="false" onAction="#dangNhapHandler" prefHeight="43.0" prefWidth="186.0" styleClass="left-side-background" stylesheets="@../../../styles/style.css" text="Đăng Nhập">
                <VBox.margin>
                   <Insets left="50.0" right="50.0" top="25.0" />
                </VBox.margin>

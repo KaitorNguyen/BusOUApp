@@ -36,7 +36,7 @@
           <RowConstraints maxHeight="158.00000610351566" minHeight="10.0" prefHeight="154.00000610351566" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button fx:id="btn_QLNV" contentDisplay="TOP" mnemonicParsing="false" prefHeight="167.0" prefWidth="306.0" text="Quản Lý Nhân Viên" GridPane.columnIndex="1">
+            <Button fx:id="btn_QLNV" contentDisplay="TOP" mnemonicParsing="false" onAction="#quanLyNV_UI" prefHeight="167.0" prefWidth="306.0" text="Quản Lý Nhân Viên" GridPane.columnIndex="1">
                <graphic>
                   <ImageView fitHeight="96.0" fitWidth="122.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -48,7 +48,7 @@
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button fx:id="btn_QLChuyenXe" contentDisplay="TOP" mnemonicParsing="false" prefHeight="167.0" prefWidth="306.0" text="Quản Lý Chuyến Xe" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Button fx:id="btn_QLChuyenXe" contentDisplay="TOP" mnemonicParsing="false" onAction="#quanLyChuyenXe_UI" prefHeight="167.0" prefWidth="306.0" text="Quản Lý Chuyến Xe" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <graphic>
                   <ImageView fitHeight="96.0" fitWidth="122.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -60,7 +60,7 @@
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button fx:id="btn_QLXe" contentDisplay="TOP" mnemonicParsing="false" prefHeight="167.0" prefWidth="306.0" text="Quản Lý Xe" GridPane.rowIndex="1">
+            <Button fx:id="btn_QLXe" contentDisplay="TOP" mnemonicParsing="false" onAction="#quanLyXe_UI" prefHeight="167.0" prefWidth="306.0" text="Quản Lý Xe" GridPane.rowIndex="1">
                <graphic>
                   <ImageView fitHeight="96.0" fitWidth="122.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -72,7 +72,7 @@
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button fx:id="btn_TaoTK" contentDisplay="TOP" mnemonicParsing="false" prefHeight="167.0" prefWidth="306.0" text="Tạo Tài Khoản">
+            <Button fx:id="btn_TaoTK" contentDisplay="TOP" mnemonicParsing="false" onAction="#taoTaiKhoan_UI" prefHeight="167.0" prefWidth="306.0" text="Tạo Tài Khoản">
                <font>
                   <Font size="18.0" />
                </font>
@@ -86,7 +86,7 @@
             </Button>
          </children>
       </GridPane>
-      <Button fx:id="btn_DangXuat" layoutX="612.0" layoutY="552.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="148.0" style="-fx-background-color: #ADFF2F; -fx-background-radius: 5;" stylesheets="@../../../styles/style.css" text="Đăng xuất">
+      <Button fx:id="btn_DangXuat" layoutX="612.0" layoutY="552.0" mnemonicParsing="false" onAction="#dangxuat_UI" prefHeight="48.0" prefWidth="148.0" style="-fx-background-color: #ADFF2F; -fx-background-radius: 5;" stylesheets="@../../../styles/style.css" text="Đăng xuất">
          <font>
             <Font size="18.0" />
          </font>

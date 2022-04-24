@@ -6,4 +6,5 @@ module com.mycompany.oubusapp {
 
     opens com.mycompany.oubusapp to javafx.fxml;
     exports com.mycompany.oubusapp;
+    exports com.mycompany.pojo;
 }
